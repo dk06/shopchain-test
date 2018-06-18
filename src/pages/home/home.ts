@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import 'rxjs/add/operator/map';
-import { IonicPage, NavController } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 import { ApiService } from '../../sharedMain/apiService';
 import { ShareService } from '../../sharedMain/shareService';
 
 import { ProductPage } from '../product/product';
 import{TabsPage} from '../tabs/tabs';
 
-@IonicPage()
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
